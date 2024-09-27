@@ -1480,6 +1480,7 @@ a {
     padding: 64px 80px;
     display: grid;
     grid-template-columns: 2fr 2fr;
+    gap: 120px;
   }
 
   .input-text h3 {
@@ -1491,9 +1492,7 @@ a {
   .input-section {
     display: flex;
     flex-direction: column;
-    padding-block: 55px;
-    padding-right: 32px;
-    padding-left: 120px;
+    align-self: center;
   }
 
   .input-section input {
